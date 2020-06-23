@@ -29,7 +29,7 @@ class MyHomePage extends StatelessWidget {
 
       // card by default depends on the size of its child
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        // mainAxisAlignment: MainAxisAlignment.spaceAround,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Container(
@@ -39,6 +39,15 @@ class MyHomePage extends StatelessWidget {
               child: Text('CHART'),
               elevation: 5,),
           ),
+          Card( 
+            elevation: 5,
+            child: Container(
+              child: Column(children: <Widget>[
+                TextField(),
+                TextField(),
+              ],
+          ),
+            ),),
           Column(
             children: transactions.map((tx) {
               return Card(
