@@ -90,6 +90,7 @@ Examples Using the US Locale:
 ## 3. ListView
 
 - Column -> ListView
+- A ListView is scrollable by default
 - ListView is the most commonly used scrolling widget
 - ListView(children:[])
   - wrapping SingleChildScrollView()
