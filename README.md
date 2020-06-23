@@ -95,3 +95,4 @@ Examples Using the US Locale:
   - wrapping SingleChildScrollView()
 - ListView.builder()
   - only load what's visible
+  - 아이템 갯수가 많을 때는 ListView.builder()를 고려해라.
