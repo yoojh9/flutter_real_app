@@ -3,22 +3,26 @@
 A new Flutter project.
 
 ## 1. Containers vs Column / Row
- - Container
-    - takes exactly one child widget
-    - Rich alignment & Styling options
-    - Flexible width (e.g child width, available width..)
-    - Perfect for custom styling & alignment
 
- - Column / Row
-    - takes multiple (unlimited) child widget
-    - Alignment but no styling options
-    - Always takes full available height(column) / width(row)
-    - Must-use if widgets sit next to / above each other
+- Container
+
+  - takes exactly one child widget
+  - Rich alignment & Styling options
+  - Flexible width (e.g child width, available width..)
+  - Perfect for custom styling & alignment
+
+- Column / Row
+  - takes multiple (unlimited) child widget
+  - Alignment but no styling options
+  - Always takes full available height(column) / width(row)
+  - Must-use if widgets sit next to / above each other
 
 ## 2. dart dateformat
+
 - https://pub.dev/packages/intl : This package provides internationalization and localization facilities, including message translation, plurals and genders, date/number formatting and parsing, and bidirectional text.
 
 - 아래 dependecy를 pubspect.yaml 파일에 붙여넣는다.
+
 ```
 dependencies:
   intl: ^0.16.1
@@ -71,6 +75,7 @@ dependencies:
 ```
 
 Examples Using the US Locale:
+
 ```
  Pattern                           Result
  ----------------                  -------
@@ -82,3 +87,11 @@ Examples Using the US Locale:
  new DateFormat.Hm()              -> 17:08 // force 24 hour time
 ```
 
+## 3. ListView
+
+- Column -> ListView
+- ListView is the most commonly used scrolling widget
+- ListView(children:[])
+  - wrapping SingleChildScrollView()
+- ListView.builder()
+  - only load what's visible
