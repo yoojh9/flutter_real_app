@@ -105,3 +105,26 @@ Examples Using the US Locale:
 - Official Widget Catalog: [https://flutter.dev/docs/development/ui/widgets](https://flutter.dev/docs/development/ui/widgets)
 - Material Design Docs: [https://material.io/design/](https://material.io/design/)
 - Flutter Theming: [https://flutter.dev/docs/cookbook/design/themes](https://flutter.dev/docs/cookbook/design/themes)
+
+## 5. What does "Responsive" Mean?
+
+support different device size (Portrait-mode phone, Landscape-mode phone, Tablet, Desktop PC)
+
+## 6. What does "Adaptive" Mean?
+
+probably diffrent look and feel on IOS and Android
+
+- Android
+
+  - Meterial-Design Look / Styles
+  - Android Animations / Route Trainsitions
+  - Android Fonts
+
+- iOS
+  - Cupertino Look / Styles
+  - iOS Animations / Route Transitions
+  - iOS Fonts
+
+## 7. Responsive & Adaptive Apps in Flutter
+
+<img src="./capture.png" width="300px">
