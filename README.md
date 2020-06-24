@@ -128,3 +128,5 @@ probably diffrent look and feel on IOS and Android
 ## 7. Responsive & Adaptive Apps in Flutter
 
 <img src="./capture.png" width="600px">
+
+## 8. textScaleFactor
