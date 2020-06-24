@@ -20,14 +20,14 @@ class TransactionList extends StatelessWidget {
                   margin: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
                   decoration: BoxDecoration(
                       border: Border.all(
-                    color: Colors.purple,
+                    color: Theme.of(context).primaryColorLight,
                     width: 2,
                   )),
                   padding: EdgeInsets.all(10),
                   child: Text(
                       '\$${transactions[index].amount.toStringAsFixed(2)}',
                       style: TextStyle(
-                          fontWeight: FontWeight.bold, color: Colors.purple)),
+                          fontWeight: FontWeight.bold, color: Theme.of(context).primaryColor)),
                 ),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
