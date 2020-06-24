@@ -29,7 +29,7 @@ class Chart extends StatelessWidget {
         'day': DateFormat.E().format(weekDay).substring(0, 1), 
         'amount': totalSum
       };
-    }); // generate: new list
+    }).reversed.toList(); // generate: new list
   }
 
   double get totalSpending {
@@ -60,6 +60,6 @@ class Chart extends StatelessWidget {
         }).toList()
         ),
       ),
-    );
+    ); 
   }
 }
