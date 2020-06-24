@@ -130,3 +130,7 @@ probably diffrent look and feel on IOS and Android
 <img src="./capture.png" width="600px">
 
 ## 8. textScaleFactor
+
+## 9. LayoutBuilder
+
+MediaQuery gives you device information, LayoutBuilder gives you constraints that apply to a widget.
