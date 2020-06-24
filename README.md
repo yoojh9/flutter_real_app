@@ -97,3 +97,11 @@ Examples Using the US Locale:
 - ListView.builder()
   - only load what's visible
   - 아이템 갯수가 많을 때는 ListView.builder()를 고려해라.
+
+## 4. Useful Resources & Links
+
+- More on Layouting (with Column(), Row() etc). : [https://flutter.dev/docs/development/ui/layout](https://flutter.dev/docs/development/ui/layout)
+- More on Images & Assets: [https://flutter.dev/docs/development/ui/assets-and-images](https://flutter.dev/docs/development/ui/assets-and-images)
+- Official Widget Catalog: [https://flutter.dev/docs/development/ui/widgets](https://flutter.dev/docs/development/ui/widgets)
+- Material Design Docs: [https://material.io/design/](https://material.io/design/)
+- Flutter Theming: [https://flutter.dev/docs/cookbook/design/themes](https://flutter.dev/docs/cookbook/design/themes)
