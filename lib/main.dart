@@ -127,12 +127,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     0.7,
                 child: TransactionList(_userTransactions, _deleteTransaction));
 
-    final pageBody = SingleChildScrollView(
+    print(appBar.preferredSize.height);
+
+    final pageBody =  SafeArea(child: SingleChildScrollView( 
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
            if(isLandscape)  Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
-              Text('Show Chart'),
+              Text('Show Chart', style: Theme.of(context).textTheme.headline6),
               // adaptive: based on platform
               Switch.adaptive(
                 activeColor: Theme.of(context).accentColor,
@@ -162,6 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
             : txListWidget
           ],
         ),
+      )
       );
 
     // scaffold: default gives page for material design widgets.
