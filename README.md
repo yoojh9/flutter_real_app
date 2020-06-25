@@ -105,6 +105,9 @@ Examples Using the US Locale:
 - Official Widget Catalog: [https://flutter.dev/docs/development/ui/widgets](https://flutter.dev/docs/development/ui/widgets)
 - Material Design Docs: [https://material.io/design/](https://material.io/design/)
 - Flutter Theming: [https://flutter.dev/docs/cookbook/design/themes](https://flutter.dev/docs/cookbook/design/themes)
+- More on MediaQuery & Responsive Layouts: [https://api.flutter.dev/flutter/widgets/MediaQuery-class.html](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html) & [https://stackoverflow.com/questions/49704497/how-to-make-flutter-app-responsive-according-to-different-screen-size?rq=1](https://stackoverflow.com/questions/49704497/how-to-make-flutter-app-responsive-according-to-different-screen-size?rq=1)
+- More on LayoutBuilder: [https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html)
+- All Cupertino Widgets: [https://flutter.dev/docs/development/ui/widgets/cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino)
 
 ## 5. What does "Responsive" Mean?
 
@@ -134,3 +137,4 @@ probably diffrent look and feel on IOS and Android
 ## 9. LayoutBuilder
 
 MediaQuery gives you device information, LayoutBuilder gives you constraints that apply to a widget.
+
