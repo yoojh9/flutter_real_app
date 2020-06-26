@@ -138,3 +138,33 @@ probably diffrent look and feel on IOS and Android
 
 MediaQuery gives you device information, LayoutBuilder gives you constraints that apply to a widget.
 
+<br>
+
+## 10. Widget Tree vs Element Tree
+
+### 1) Widget Tree
+ - Configuration(rebuilds frequently) : just a bunch of configuration settings.
+ - the widget tree is constantly changing basically whenever you call set state, so whenever the build method get executed, Flutter rebuilds that widget tree
+
+
+
+### 2) Element Tree
+ - Links widgets with rendered objects(rarely rebuilds)
+ - created by Flutter automatically based on widget tree and it links widgets to the actual rendered objects
+ - The element tree is managed differently and does not rebuild with every call to the build method
+ - render it to the screen and it does so by looking at the widget at which this element also points which holds all the information you need for painting it to the screen, like a background color, a border the size. 
+
+### 3) Render Tree
+ - Rendered objects on the screen (rarely rebuilds)
+ - What you see on the screen
+
+<br>
+
+## 11. build method
+ - build method is called by flutter whenever your state changes
+ - build method runs again, new instances of all these classes are created.
+ - build method를 호출시키는 trigger
+  - calling set state automatically leads to build being called
+  - media query or theme will cause your widget to rebuild automatically whenever changes (ex.rotate device, soft keyboard appear)
+
+<image src="./capture2.png" width="600">
