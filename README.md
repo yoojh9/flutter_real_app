@@ -193,3 +193,17 @@ These three dot tell Dart that you want to pull all the elements out of that lis
 ## 15. App Lifecycle
 
 <image src="./capture4.png" width="600"/>
+
+## 16. Context
+
+- Every widgets has its own context attached to it and that's the context to get in the build method.
+- Context holds information about the position of the widget in the overall widget tree
+- ex. MediaQuery.of(context), Theme.of(context)
+
+<image src="./capture5.png" width="600"/>
+
+**InheritedWidget**
+
+- get a direct tunnel to the InheritedWidget and to data with help of context. because the context know about the general structure of widget tree. and therefor they can directly access any other widget wiout passing data through arguments(with constructor)
+
+<image src="./capture6.png" width="600"/>
