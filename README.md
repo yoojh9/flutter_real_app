@@ -108,6 +108,11 @@ Examples Using the US Locale:
 - More on MediaQuery & Responsive Layouts: [https://api.flutter.dev/flutter/widgets/MediaQuery-class.html](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html) & [https://stackoverflow.com/questions/49704497/how-to-make-flutter-app-responsive-according-to-different-screen-size?rq=1](https://stackoverflow.com/questions/49704497/how-to-make-flutter-app-responsive-according-to-different-screen-size?rq=1)
 - More on LayoutBuilder: [https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html)
 - All Cupertino Widgets: [https://flutter.dev/docs/development/ui/widgets/cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino)
+- Part1. Stateless Widgets: [https://www.youtube.com/watch?v=wE7khGHVkYY](https://www.youtube.com/watch?v=wE7khGHVkYY)
+- Part2. Stateful Widgets, Widget Tree, Element Tree: [https://www.youtube.com/watch?v=AqCMFXEmf3w](https://www.youtube.com/watch?v=AqCMFXEmf3w)
+- Part3. Inherited Widget/Context: [https://www.youtube.com/watch?v=Zbm3hjPjQMk](https://www.youtube.com/watch?v=Zbm3hjPjQMk)
+- Part4. Keys: [https://www.youtube.com/watch?v=kn0EOS-ZiIc](https://www.youtube.com/watch?v=kn0EOS-ZiIc)
+- App Lifecycle: [https://medium.com/pharos-production/flutter-app-lifecycle-4b0ab4a4211a](https://medium.com/pharos-production/flutter-app-lifecycle-4b0ab4a4211a)
 
 ## 5. What does "Responsive" Mean?
 
