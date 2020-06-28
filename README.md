@@ -185,3 +185,11 @@ using the const keyword in front of classes or class constructors which give you
 
 add three dots in front of a list or in front of a function or a method that returns a list.
 These three dot tell Dart that you want to pull all the elements out of that list and merge them as single elements into that surrounding list which we have.
+
+## 14. Widget Lifecycle
+
+<image src="./capture3.png" width="600">
+
+## 15. App Lifecycle
+
+<image src="./capture4.png" width="600"/>
