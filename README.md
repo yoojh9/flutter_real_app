@@ -207,3 +207,11 @@ These three dot tell Dart that you want to pull all the elements out of that lis
 - get a direct tunnel to the InheritedWidget and to data with help of context. because the context know about the general structure of widget tree. and therefor they can directly access any other widget wiout passing data through arguments(with constructor)
 
 <image src="./capture6.png" width="600"/>
+
+## 17. Using Key
+
+- To help Flutter link elements (element tree) and widgets(widget tree) correctly.
+- Flutter may attach a state object to the wrong widget (if widgets moved or where deleted) if you're not using keys.
+- simly make it easier for flutter to identify the conntected widget.
+- key가 사용되는 시나리오는 대부분 99% ListView with Stateful children 시나리오에서 사용한다.
+- if it's a stateful widget that manages its own data internally and that data can change, and then Flutter might in a situation where it can't match up items correctly
